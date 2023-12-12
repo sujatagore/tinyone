@@ -1,0 +1,152 @@
+
+         /* Header section css */
+		 
+.header{
+	background-color:#fcdb00;
+	padding:55px 0 100px;
+}
+
+.logo{
+	display:inline-block;
+}
+
+.navbar ul{
+	display:inline-block;
+}
+
+.navbar ul li{
+	display:inline-block;
+	margin-left:18px;
+}
+
+.navbar ul li a{
+	padding:10px 18px;
+	font-weight:bold;
+	font-size:22px;
+	color:#010101;
+	text-transform:capitalize;
+	display:inline-block;
+	height:47px;
+	line-height:47px;
+}
+
+.brandlinks li{
+	display:inline-block;
+	margin-right:40px;
+}
+
+.brandlinks li a{
+	color:#010101;
+}
+
+.brandlinks li a i{
+	font-size:40px;
+	display:inline-block;
+	transition:all 0.7s ease-in-out;
+}
+
+.brandlinks li a i:hover{
+	transform:rotate(180deg);
+}
+
+.ipad{
+	transition:all 0.7s linear;
+}
+
+.ipad:hover{
+	transform:translateY(30px);
+}
+
+		/* section css */	
+		
+.section-ins{
+	padding:120px 0 75px;
+}
+
+.thumbnail{
+	margin-bottom:85px;
+}
+
+.icon i{
+	font-size:40px;
+	color:#010101;
+	transition:all 0.7s ease-in-out;
+}
+
+.icon i:hover{
+	transform:translateX(20px);
+}
+
+.thumbheading{
+	font-size:22px;
+	color:#010101;
+	margin-bottom:15px;
+	text-transform:capitalize;
+}
+
+.thumbpara{
+	color:#898989;
+}
+
+        /* footer css */
+		
+.footer{
+	background-color:#010101;
+	color:#ffffff;
+	padding:95px 0 135px;
+}
+
+.footer .pri-heading{
+	color:#fcdb00;
+}
+
+.footer .sec-heading{
+	color:#898989;
+	margin-bottom:45px;
+}
+
+.email, .submitBtn{
+	height:50px;
+	border:0px;
+	border-radius:5px;
+	outline:none;
+}
+
+.email{
+	width:calc(100% - 360px);
+	padding:0 25px;
+	border:0px;
+}
+
+.submitBtn{
+	cursor:pointer;
+	width:125px;
+	margin-left:20px;
+	background-color:#fcdb00;
+	color:#010101;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:2px solid #fcdb00;
+	transition:color 0.7s ease-in-out;
+	transition:background-color 0.7s ease-in-out;
+	position:relative;
+}
+
+.submitBtn:hover,
+.submitBtn:focus,
+.submitBtn:active{
+	background-color:#010101;
+	color:#fcdb00;
+}
+
+.footer .brandlinks li a i{
+	background-color:#fcdb00;
+	border-radius:5px;
+}
+
+.footerlinks li,
+.footerlinks a:link,
+.footerlinks a:visited{
+	color:#ffffff;
+	font-style:normal;
+}
